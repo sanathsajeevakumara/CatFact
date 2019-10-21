@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp"
+    android:background="#292631">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#292631">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type : "
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:fontFamily="@font/mr"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/showFacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="blah blah blah"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:fontFamily="@font/mm"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/upVotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_gravity="right"
+            android:fontFamily="@font/mr"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
